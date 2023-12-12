@@ -1,0 +1,34 @@
+{
+  "name": "whiteboard",
+  "version": "0.12.0",
+  "description": "A simple collaborative whiteboard",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ioredis": "^4.28.5",
+    "mongodb": "^6.3.0",
+    "socket.io": "^1.7.3",
+    "uuid": "^7.0.3"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "proyuki02",
+  "license": "MIT",
+  "engines": {
+    "node": "^16.16.0"
+  },
+  "volta": {
+    "node": "16.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dileepvalluru/whiteboard.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dileepvalluru/whiteboard/issues"
+  },
+  "homepage": "https://github.com/dileepvalluru/whiteboard#readme"
+}
